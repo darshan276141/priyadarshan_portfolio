@@ -30,7 +30,7 @@ export const Projects = () => {
                                 </span>
                             ))}
                         </div>
-                        <div className="flex justify-between items-center">
+                         <div className="flex justify-between items-center">
                             <a href="https://deepseek-iota-opal.vercel.app/" 
                              className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                              target="_blank" rel="noopener noreferrer">
@@ -38,6 +38,7 @@ export const Projects = () => {
                             </a>
 
                         </div>
+                       
                     </div>
 
 
@@ -61,7 +62,12 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project  → </a>
+                            <a href="#" 
+                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                             target="_blank" rel="noopener noreferrer">
+                                View Project →
+                            </a>
+
                         </div>
                     </div>
 
@@ -85,9 +91,15 @@ export const Projects = () => {
                                 </span>
                             ))}
                         </div>
-                        <div className="flex justify-between items-center">
-                            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project  → </a>
+                         <div className="flex justify-between items-center">
+                            <a href="#" 
+                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                             target="_blank" rel="noopener noreferrer">
+                                View Project →
+                            </a>
+
                         </div>
+                       
                     </div>
 
 
@@ -110,9 +122,15 @@ export const Projects = () => {
                                 </span>
                             ))}
                         </div>
-                        <div className="flex justify-between items-center">
-                            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project  → </a>
+                         <div className="flex justify-between items-center">
+                            <a href="#" 
+                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                             target="_blank" rel="noopener noreferrer">
+                                View Project →
+                            </a>
+
                         </div>
+                        
                     </div>
 
 
