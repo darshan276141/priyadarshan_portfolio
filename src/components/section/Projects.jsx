@@ -31,7 +31,14 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://deepseek-iota-opal.vercel.app/" target="_blank" rel="noopener noreferrer"  className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project  → </a>
+                            <a
+  href="#"
+  onClick={() => window.open('https://deepseek-iota-opal.vercel.app/', '_blank')}
+  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+>
+  View Project →
+</a>
+
                         </div>
                     </div>
 
