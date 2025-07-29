@@ -105,7 +105,7 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                      hover:border-blue-500/30 hover:shadow-[(0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Resumaste</h3>
+                        <h3 className="text-xl font-bold mb-2">Resumaster</h3>
                         <p className="text-gray-400 mb-4"> 
                         Created Resumaster, an AI-driven platform that enhances resume quality by providing automated analysis and improvement recommendations,
                          helping users increase job interview success rates.
