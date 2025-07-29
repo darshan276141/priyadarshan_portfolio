@@ -62,7 +62,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="#" 
+                            <a href="https://github.com/darshan276141/code_reviewer" 
                              className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                              target="_blank" rel="noopener noreferrer">
                                 View Project →
@@ -74,10 +74,10 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                      hover:border-blue-500/30 hover:shadow-[(0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Library App </h3>
+                        <h3 className="text-xl font-bold mb-2">Muscle_brain </h3>
                         <p className="text-gray-400 mb-4"> 
-                            Developed a full-stack web application to manage and organize a personal book collection with
-                            features like adding, editing, and deleting books. 
+                           Developed Muscle_Brain, a web platform that explains fitness concepts and muscle growth mechanisms with interactive
+                            visualizations, enhancing user understanding of workout science
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {[ "MongoDB" ,"Expressjs", "React js"," Node.js" ].map((tech, key)=> (
@@ -92,7 +92,7 @@ export const Projects = () => {
                             ))}
                         </div>
                          <div className="flex justify-between items-center">
-                            <a href="#" 
+                            <a href="https://muscle-brain.vercel.app/" 
                              className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                              target="_blank" rel="noopener noreferrer">
                                 View Project →
@@ -105,10 +105,10 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                      hover:border-blue-500/30 hover:shadow-[(0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Text to Speech Convertor</h3>
+                        <h3 className="text-xl font-bold mb-2">Resumaste</h3>
                         <p className="text-gray-400 mb-4"> 
-                        Developed a text-to-speech converter application using Windows Speech Recognition,
-                        enabling users to convert written text into speech with real-time voice output.
+                        Created Resumaster, an AI-driven platform that enhances resume quality by providing automated analysis and improvement recommendations,
+                         helping users increase job interview success rates.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {[ "Html", "CSS", "Javascript", "Windows Speech Recognition", ].map((tech, key)=> (
@@ -123,7 +123,7 @@ export const Projects = () => {
                             ))}
                         </div>
                          <div className="flex justify-between items-center">
-                            <a href="#" 
+                            <a href="https://resume-master-delta.vercel.app/" 
                              className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                              target="_blank" rel="noopener noreferrer">
                                 View Project →
