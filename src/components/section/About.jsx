@@ -11,19 +11,19 @@ export const About = () => {
         "Next.js",
         "TypeScript",
         "TailwindCSS",
-        "Clerk",
         "Vercel"
-
-
     ];
     const backendSkills = [
         "Node.js",
         "AWS",
-        "MongoDB",
+        "MongoDB", 
         "Python",
         "Express.js",
-        "Postman"
+        "Postman",
+        "SQL",
+        "Docker"
     ];
+    
 
     return (
         <section
@@ -37,8 +37,8 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        Passionate developer with expertise in building scalable web
-                        applications and creating innovative solutions.
+                        As a dedicated web developer specializing in the MERN stack, I thrive on transforming innovative ideas into impactful digital solutions. My journey in tech is fueled by a commitment to continuous learning and leveraging cutting-edge technologies, particularly in the realm of Artificial Intelligence and Machine Learning.
+                        I believe that the future of web development lies in integrating AI to enhance productivity and create more intuitive user experiences.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -84,15 +84,18 @@ export const About = () => {
                             <li>
                                 Relevant Coursework: Data Structures, Fusion360, Hardware Simulation
                             </li>
+                             <li>
+                                GPA : 8.72
+                            </li>
                         </ul>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold">Web Development Intern at MotionCut (january,2025 - march,2025)</h4>
-                                <p> Developed and optimized responsive websites, ensuring seamless user
-                                    experiences across desktop, tablet, and mobile platforms.
+                                <h4 className="font-semibold"> Backend Developer Intern at SmallFare (August,2025 - November,2025)</h4>
+                                <p> Developed and maintained backend services using Node.js and Express.js, ensuring robust performance and scalability.
+                                    Integrated Payment Gateway APIs to facilitate secure and efficient transactions within the application.
                                 </p>
                             </div>
                         </div>
